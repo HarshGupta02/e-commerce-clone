@@ -1,0 +1,25 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1500px;
+    background-color: rgb(234, 237, 237);
+}
+
+.home__row{
+    display: flex;
+    z-index: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+.home__image{
+    width: 100%;
+    z-index: -1; /* everything else should be above this banner*/
+    margin-bottom:-150px;
+    /* mask-image: gradient(to bottom,rgba(0,0,0,2),rgba(0,0,0,0));  decrease the color gradient from top to bottom from color 1 to color 2 */
+    /* from blue to white*/
+}

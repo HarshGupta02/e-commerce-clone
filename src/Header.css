@@ -1,0 +1,87 @@
+.header{
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #131921;
+    position: sticky;
+    top:0;
+    z-index: 100;
+}
+
+.header_logo{
+    display: flex;
+    width: 100px;
+    object-fit: contain; /* maintains the aspect ratio of the image */
+    margin:0px 1px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.header_search{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    /* border-radius: 24px; */
+}
+
+.header_search_Input{
+    height:12px;
+    padding: 11px;
+    width: 100%;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.header_searchIcon{
+    background-color: #cd9042;
+    padding: 5px;
+    height: 22px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.header_option{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    justify-content: space-evenly;
+}
+
+.header_nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header_optionLineOne{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.header_optionLineTwo{
+    font-size: 13px;
+    font-weight: 650;
+}
+
+.header_showAddress{
+    display:flex;
+}
+
+#header_deliver{
+    padding-left: 30px;
+}
+
+.header_option_basket{
+    display: flex;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header_basket_count{
+    margin-left: 10px;
+    margin-right: 5px;
+}
